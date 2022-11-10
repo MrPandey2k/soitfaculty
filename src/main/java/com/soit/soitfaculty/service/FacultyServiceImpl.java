@@ -25,8 +25,8 @@ public class FacultyServiceImpl implements FacultyService {
 	@Override
 	public List<Faculty> findAll() {
 		// TODO Auto-generated method stub
-		return facultyRepository.findAll();
-	}
+		return facultyRepository.findallByLastName();
+		}
 
 	@Override
 	public Faculty findById(int theId) {
